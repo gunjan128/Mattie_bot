@@ -18,8 +18,8 @@ def my_output(query):
     return response.text
 
 # Streamlit UI
-st.set_page_config(page_title="Mattie_bot")
-st.header("Mattie_bot")
+st.set_page_config(page_title="Saurabh_bot")
+st.header("Saurabh_bot")
 
 input_text = st.text_input("Input", key="input")
 submit = st.button("Ask your query")
